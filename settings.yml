@@ -43,7 +43,7 @@ categories:
           - no_sub
           - only_sub
       banner_image:
-        type: upload
+        type: "upload"
         default: ""
 
 plugin_outlet:
