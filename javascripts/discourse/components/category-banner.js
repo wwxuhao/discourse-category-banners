@@ -55,6 +55,13 @@ export default class DiscourseCategoryBanners extends Component {
     return settings.show_description && this.category.description?.length > 0;
   }
 
+  get categoryIcon() {
+    const activeCategory = settings.categories.find((category) => {
+      return category.category_id[0] === currentCategoryId;
+    });
+    return activeCategory.banner_icon;
+  }
+
   #parseExceptions(exceptionsStr) {
     return exceptionsStr
       .split("|")

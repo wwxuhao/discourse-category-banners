@@ -45,6 +45,9 @@ categories:
           - all
           - no_sub
           - only_sub
+      banner_icon:
+        type: upload
+        default: ""
 
 plugin_outlet:
   default: "below-site-header"
