@@ -19,7 +19,7 @@ en:
                 all - Banner will show for selected category and its subcategories
                 no_sub - Banner will only show for the selected category
                 only_sub - Banner will only show for the subcategories of the selected category
-            banner_icon:
+            banner_image:
               label: Banner image
               description: "Banner image"
       plugin_outlet: "Changes the position of the banner on the page"

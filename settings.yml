@@ -42,7 +42,7 @@ categories:
           - all
           - no_sub
           - only_sub
-      banner_icon:
+      banner_image:
         type: upload
         default: ""
 

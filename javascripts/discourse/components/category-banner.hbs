@@ -9,8 +9,8 @@
   >
     {{#if this.category}}
       <div class="category-title-contents">
-        {{#if (this.categoryIcon)}}
-          <img class="category-banner" src="{{this.categoryIcon}}" />
+        {{#if (this.bannerImage)}}
+          <img class="category-banner" src="{{this.bannerImage}}" />
         {{/if}}
         <h1 class="category-title">
           {{#if (and (theme-setting "show_category_icon") this.category)}}
