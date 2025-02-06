@@ -1,6 +1,3 @@
-show_description:
-  default: true
-
 show_mobile:
   default: true
 
